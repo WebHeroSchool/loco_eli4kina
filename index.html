@@ -1,0 +1,133 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+	<title>LOCO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="main">
+    <section class="upper-block">
+      <div class="up-page">
+        <div class="up-page__logo">LOCO</div>
+        <button class="up-page__language">RU</button>
+        <button class="menu">
+          <!--две полоски в бургер меню, поэтому и два span. Через псевдоэлементы не хочу делать-->
+          <span class="menu__burger"></span>
+          <span class="menu__burger"></span>
+        </button> 
+      </div>
+      <div class="upper-block-content">
+      <div class="upper-block-img"></div>
+      <div class="upper-block-info">
+          <div class="upper-collection">
+            <h1 class="upper-collection__title">Новая коллекция</h1>
+            <p class="upper-collection__subtitle">Бесплатная доставка включена. 
+              Предложение действует на сайте loco.com и в магазинах 
+              до 18.09.2018. Для получения скидки в магазинах предъявите 
+              скриншот данного предложения. В магазинах предложение 
+              не суммируется с другими акциями, предложениями и распродажей.
+            </p>
+          </div>
+          <div class="upper-button">
+            <button class="button-further">ЧИТАТЬ ДАЛЬШЕ</button>
+            <div class="other-offers">
+              <!-- other-offers__link - общее название т.к. испльзуется в трех местах -->
+              <a href="#" class="other-offers__link-up">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
+              <a href="#" class="other-offers__cursor-up"></a>
+            </div>
+          </div>
+        </div>
+        <div class="chevrone-mobile"></div>
+      </div>
+      <div class="bottom-page">
+        <div class="im">
+          <a href="#" title="instagram" class="im__inst"></a>
+          <a href="#" title="vk" class="im__vk"></a>
+          <a href="#" title="facebook" class="im__fb"></a>
+        </div>
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section class="middle-block">
+      <div class="middle-block-imgs">
+        <img class="middle-block-imgs__gray" src="images/clutch_gray.svg" alt="gray bag">
+        <img class="middle-block-imgs__pink" src="images/clutch_pink.svg" alt="pink bag">
+      </div>
+      <div class="middle-block-info">
+        <div class="clutch-data">
+          <!--@todo лишь бы приняли-->
+          <h1 class="clutch-data__title">Кожаный клатч</h1>
+          <h3 class="clutch-data__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</h3>
+          <p class="clutch-data__description">
+            Бесплатная доставка включена. Предложение 
+            действует на сайте loco.com и в магазинах 
+            до 18.09.2018. Для получения скидки в магазинах
+            предъявите скриншот данного предложения. 
+            В магазинах предложение не суммируется с 
+            другими акциями, предложениями и распродажей.
+          </p>
+          <div class="color-price">
+            <div class="color">
+              <!-- в классе color__ellipse будет описанны общие свойства кружка размер, положение, отступы-->
+              <!-- color-selection__цвет будет описан цвет -->
+              <div class="color__ellipse color__ellipse_gray"></div>
+              <div class="color__ellipse color__ellipse_pink"></div>
+              <div class="color__ellipse color__ellipse_blue"></div>
+              <div class="color__ellipse color__ellipse_green"></div>
+            </div>
+            <div class="price">1990&nbsp;&#8381;</div>
+          </div>
+          <!--форма для корзины повторяется 2 раза, поэтому названия для классов общие без привязки к секции-->
+          <div class="cart-form">
+            <div class="quantity">
+              <button class="quantity__operation" >-</button>
+              <input  class="quantity__num" readonly="readonly" type="text" value="1">
+              <button class="quantity__operation">+</button>
+            </div>
+            <button class="button-add">ДОБАВИТЬ В КОРЗИНУ</button>
+          </div>
+        </div>
+        <div class="other-offers">
+          <a href="#" class="other-offers__link-middle">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+          <a href="#" class="other-offers__cursor-middle"></a>
+        </div>  
+      </div>   
+    </section>
+    <section class="lower-block">
+      <div class="lower-block-img"></div>
+      <div class="lower-block-data">
+        <div class="look-info">
+          <!--@todo лишь бы приняли-->
+          <h1 class="look-info__title">Serene Total Look</h1>
+          <h3 class="look-info__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</h3>
+          <p class="look-info__description">
+            Джинсы, свитер, обувь.
+            <br>В комплект также входит пакет ароматного 
+            чая и кружка.
+            </p>
+          <div class="cart-form">
+            <div class="quantity">
+              <button class="quantity__operation" >-</button>
+              <input  class="quantity__num" readonly="readonly" type="text" value="1">
+              <button class="quantity__operation">+</button>
+            </div>
+            <button class="button-add">ДОБАВИТЬ В КОРЗИНУ</button>
+          </div>
+        </div>
+        <div class="other-offers">
+          <a href="#" class="other-offers__link-lower">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+          <a href="#" class="other-offers__cursor-lower"></a>
+        </div>
+      </div>
+      <footer class="logo-whs">
+        <div class="logo-whs__1"></div>
+        <div class="logo-whs__2"></div>
+      </footer>	
+      </section>
+    </main>	
+	</body>
+	</html>
