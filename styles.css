@@ -3,12 +3,8 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-.main {
-  max-width:100%;
-}
 
 .upper-block {
-  width: 100%;
   height: 900px;
   display: flex;
   flex-direction: column;
@@ -78,7 +74,7 @@ body {
 .upper-block-content {
   display: flex;
   position: relative;
-  left: 13%;
+  margin-left: 13%;
   margin-top: 77px;
 }
 
@@ -95,21 +91,20 @@ body {
 }
 
 .upper-collection__title {
-  font: 700 80px/82px 'Montserrat-Bold', Arial, sans-serif;
-  letter-spacing: 0.8px;
+  font: 700 81px/82px 'Montserrat-Bold', Arial, sans-serif;
+  letter-spacing: -0.6px;
   margin: 101px 0 0 0;
   width: 475px;
 }
 
 .upper-collection__subtitle {
   font: 400 15px/21px 'Montserrat-Regular', Arial, sans-serif;
-  letter-spacing: 0.1px;
-  margin: 18px 0 0 1px;
+  margin: 19px 0 0 1px;
   width: 467px;
 }
 
 .upper-button {
-  margin: 37px 0 0 -2px;
+  margin: 36px 0 0 -2px;
   cursor: pointer;
   display: flex;
 }
@@ -124,7 +119,7 @@ body {
 
 .other-offers {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 .other-offers__link-up {
@@ -146,7 +141,7 @@ body {
 }
 
 .im {
-  margin: 85px 12px 41px 52px;
+  margin: 85px 0 0 52px;
 }
 
 .im__inst {
@@ -180,7 +175,7 @@ body {
 
 .mouse {
   position: relative;
-  margin: 84px auto 0 490px;
+  margin: 84px auto 0 502px;
   background: no-repeat url(images/mouse.svg);
   width: 27px;
   height: 46px;
@@ -188,13 +183,40 @@ body {
 
 /*средний блок*/
 .middle-block {
-  display: flex;
-  flex-direction: row;
+  background: #FAE8E4;
   height: 900px;
   width: 100%;
-  background-color: #fae8e4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: none;
+  justify-content: space-evenly;
+}
+/*отсюда*/
+.middle-block-imgs {
+  width: 51%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
+.middle-block-imgs__gray {
+  position: absolute;
+  width: 69%;
+  height: 45%;
+  top: 210px;
+}
+
+.middle-block-imgs__pink {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 155px;
+}
+
+/*
+моё
 .middle-block-imgs {
   display: flex;
   position: relative;
@@ -214,8 +236,20 @@ body {
   left: 18%;
   width: 582px;
   height: 844px;
+}*/
+
+.middle-block-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  min-width: 430px;
+  max-width: 488px;
+  position: relative;
+  margin-top: 10px;
 }
 
+/*моё
 .middle-block-info {
   display: flex;
   flex-direction: column;
@@ -225,14 +259,15 @@ body {
   max-width: 488px;
   width: 488px;
   height: 556px;
-}
+}*/
 
 .clutch-data {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  padding: 44px 63px 44px 57px;
-  margin-bottom: 37px;
+  padding: 44px 63px 44px 55px;
+  margin-top: 163px;
+  margin-bottom: 38px;
   box-shadow: 27px 27px 40px -20px #0000003b;
 }
 
@@ -258,7 +293,7 @@ body {
 }
 
 .clutch-data__subtitle {
-  margin: 17px 0 0 0;
+  margin: 16px 0 0 0;
 }
 
 .clutch-data__description {
@@ -270,7 +305,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 38px;
+  margin-top: 37px;
 }
 
 .color {
@@ -283,7 +318,7 @@ body {
   width: 30px;
   height: 30px;
   margin-right: 12px;
-  transform: translateY(15%);
+  transform: translateY(25%);
 }
 
 .color__ellipse_gray {
@@ -292,7 +327,7 @@ body {
 
 .color__ellipse_pink {
   background-color: #f29f9f;
-  transform: translateY(0%);
+  transform: translateY(10%);
   width: 37px;
   height: 37px;
 }
@@ -307,23 +342,23 @@ body {
 
 .price {
   font: 700 40px/56px 'Montserrat-Bold', Arial, sans-serif;
-  letter-spacing: -2px;
-  margin-right: 9px;
+  letter-spacing: -1px;
+  margin-right: 7px;
 }
 
 .cart-form {
-  width: 100%;
+ /* width: 100%;*/
   display: flex;
 }
 
 .clutch-data__cart-form {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 
 .quantity {
   border: 2px solid black;
   width: 96px;
-  height: 41px;
+  height: 40px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -349,15 +384,15 @@ body {
   font: 500 13px/18px 'Montserrat-Medium', Arial, sans-serif;
   background: none;
   border: 2px solid black;
-  padding: 11px 46px 11px 38px;
+  padding: 11px 45px 11px 39px;
 }
 
 .other-offers__link-middle {
   text-decoration: none;
   font: 500 13px/18px 'Montserrat-Medium', Arial, sans-serif;
-  letter-spacing: -0.1px;
-  margin-left: 7px;
-  margin-right: 14px;
+  letter-spacing: -0.2px;
+  margin-left: 5px;
+  margin-right: 16px;
 }
 
 .other-offers__cursor-middle {
@@ -379,13 +414,36 @@ body {
 
 .lower-block-img {
   background: no-repeat url(images/photo-1.svg);
+  background-size: cover;
   text-decoration: none;
   width: 827px;
   height: 621px;
+  position: absolute;
   margin: 139px 0 0 88px;
   box-shadow: 0 27px 40px -20px #0000003b;
 }
+/*отсюда*/
+.lower-block-data {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+}
 
+.look-info {
+  display: flex;
+  flex-direction: column;
+  width: 428px;
+  padding: 37px 0 45px 47px;
+  margin: 60px 10.3% 36px 0;
+  background-color: #fae8e4;
+  z-index: 1;
+}
+
+/*
+моё
 .lower-block-data {
   display: flex;
   flex-direction: column;
@@ -403,18 +461,25 @@ body {
   padding: 38px 53px 45px 47px;
   margin-bottom: 36px;
   background-color: #fae8e4;
-}
+}*/
 
 .look-info__subtitle {
   margin: 15px 0 0 0;
 }
 
 .look-info__description {
-  margin: 33px 0 0 3px;
+  margin: 33px 76px 0 3px;
 }
 
 .look-info__cart-form {
-  margin-top: 55px;
+  margin-top: 56px;
+}
+
+.other-offers-lower {
+  display: flex;
+  align-items: center;
+  margin-right: 10.2%;
+  z-index: 1;
 }
 
 .other-offers__link-lower {
@@ -437,7 +502,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
-  margin-top: 99px;
+  margin-top: 4px;
 }
 
 .logo-whs__1 {
@@ -492,6 +557,7 @@ body {
     flex-direction: column;
     position: static;
     margin-top: 0;
+    margin-left: 0;
   }
 
   .upper-block-img {
@@ -500,6 +566,7 @@ body {
     width: 100%;
     height: 583px;
     position: absolute;
+    margin-right: 0;
   }
 
   .upper-block-info {
@@ -563,7 +630,7 @@ body {
     flex-direction: column;
     background-color: #fff;
     padding: 15px 28px 25px 29px;
-    margin-bottom: 37px;
+    margin-bottom: 38px;
     box-shadow: 27px 27px 40px -20px #0000003b;
   }
 
@@ -648,7 +715,7 @@ body {
   }
   
   .lower-block-data {
-      top: 274px;
+    top: 274px;
     left: 44px;
     width: 305px;
   }
@@ -668,8 +735,7 @@ body {
     margin: 10px 0 0 1px;
   }
 
-  .other-offers-mobile {
-    display: flex;
+  .other-offers-lower {
     flex-direction: column;
     align-items: flex-end;
     margin-right: 52px;
