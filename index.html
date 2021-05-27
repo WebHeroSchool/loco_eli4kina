@@ -13,12 +13,19 @@
     <section class="upper-block">
       <div class="up-page">
         <div class="up-page__logo">LOCO</div>
-        <button class="up-page__language">RU</button>
-        <button class="menu">
-          <!--две полоски в бургер меню, поэтому и два span. Через псевдоэлементы не хочу делать-->
-          <span class="menu__burger"></span>
-          <span class="menu__burger"></span>
-        </button> 
+        <button class="up-page__language">RU</button>   
+        <input id="menu-toggle" type="checkbox" />
+        <div class="menu-burger">
+          <label class="btn" for="menu-toggle">
+            <span></span>
+          </label>
+        </div>
+        <nav class="nav">
+          <a class="nav-item" href="">Покупателям</a>
+          <a class="nav-item" href="">О нас</a>
+          <a class="nav-item" href="">Доставка</a>
+          <a class="nav-item" href="">Контакты</a>
+        </nav>
       </div>
       <div class="upper-block-content">
       <div class="upper-block-img"></div>
