@@ -48,14 +48,10 @@ body {
   width: 12px;
   margin-left: 7px;
   transform: translateY(1px);
-
 }
 
-
-/*начало*/
-
 .menu-block {
-visibility: hidden; 
+  visibility: hidden; 
 }
 
 #menu-toggle {
@@ -63,12 +59,10 @@ visibility: hidden;
   position: absolute;
 }
 
-/* стилизуем кнопку */
-
 .menu-burger {
   height: 92px;
   width: 92px;
-  background:#f5f3f3;
+  background: #f5f3f3;
 }
 
 .btn {
@@ -255,9 +249,8 @@ visibility: hidden;
   height: 46px;
 }
 
-/*средний блок*/
 .middle-block {
-  background: #FAE8E4;
+  background: #fae8e4;
   height: 900px;
   width: 100%;
   display: flex;
@@ -326,7 +319,7 @@ visibility: hidden;
   opacity: 0.5;
 }
 
-.description{
+.description {
   font: 400 15px/21px 'Montserrat-Regular', Arial, sans-serif;
   opacity: 0.5;
 }
@@ -442,13 +435,12 @@ visibility: hidden;
   margin-top: 1px;
 }
 
-/*нижний блок*/
 .lower-block {
   display: flex;
   flex-direction: column;
   position: relative;
   height: 900px;
-  background: linear-gradient(to right, #ebe3d8 388px, #000 388px, #000 461px, #ebe3d8 461px)
+  background: linear-gradient(to right, #ebe3d8 388px, #000 388px, #000 461px, #ebe3d8 461px);
 }
 
 .lower-block-img {
@@ -650,7 +642,7 @@ visibility: hidden;
   }
 
   .bottom-page,
-  .upper-collection__subtitle,  
+  .upper-collection__subtitle,
   .upper-button {
     display: none;
   }
@@ -765,7 +757,7 @@ visibility: hidden;
     
   .button-add {
     border: 1px solid black;
-    padding: 8px 46px 9px 46px;;
+    padding: 8px 46px 9px 46px;
   }
 
   .cart-form {
@@ -780,7 +772,7 @@ visibility: hidden;
   .lower-block {
     height: 597px;
     align-items: center;
-    background: linear-gradient(to right, #ebe3d8 102px, #000 102px, #000 143px, #ebe3d8 143px)
+    background: linear-gradient(to right, #ebe3d8 102px, #000 102px, #000 143px, #ebe3d8 143px);
   }
   
   .lower-block-img {
@@ -994,6 +986,7 @@ visibility: hidden;
 
   .lower-block-data {
     height: 93%;
+    justify-content: flex-end;
   }
  
   .lower-block-img {
@@ -1004,14 +997,11 @@ visibility: hidden;
     max-height: 525px;
   }
 
-  .lower-block-data {
-    justify-content: flex-end;
-  }
-
   .look-info {
     width: 402px;
     margin: 60px 10.3% 24px 0;
   }
+
   .title {
     font-size: 30px;
   }
@@ -1027,8 +1017,9 @@ visibility: hidden;
   .look-info__description {
     margin: 24px 76px 0 3px;
   }
+
   .description {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   .look-info__cart-form {
