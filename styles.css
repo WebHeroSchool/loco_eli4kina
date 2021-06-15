@@ -51,7 +51,7 @@ body {
 }
 
 .menu-block {
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 #menu-toggle {
@@ -522,7 +522,6 @@ body {
   width: 115px;
   height: 15px;
   margin-right: 11px;
-
 }
 
 .logo-whs__2 {
@@ -573,9 +572,9 @@ body {
   .menu-burger {
     height: 70px;
     width: 70px;
-    background:#f5f3f3;
+    background: #f5f3f3;
   }
-  
+
   .btn {
     display: flex;
     flex-direction: column;
@@ -709,7 +708,7 @@ body {
     line-height: 10px;
   }
   
-  .description{
+  .description {
     font-size: 9px;
     line-height: 13px;
   }
